@@ -20,9 +20,9 @@
       // 추가 기능
       
         // Azure CLI
-        "ghcr.io/devcontainers/features/azure-cli:latest": {
-          "version": "latest"
-        },
+        // "ghcr.io/devcontainers/features/azure-cli:latest": {
+        //   "version": "latest"
+        // },
     
         // GitHub CLI
         "ghcr.io/devcontainers/features/github-cli:latest": {
@@ -60,13 +60,23 @@
           "GitHub.copilot",
           "GitHub.copilot-labs",
     
-          // C# 관련
-          "ms-dotnettools.vscode-dotnet-pack",
-          "kreativ-software.csharpextensions",
+          // // C# 관련
+          // "ms-dotnettools.vscode-dotnet-pack",
+          // "kreativ-software.csharpextensions",
     
-          // Azure 관련
-          "ms-vscode.vscode-node-azure-pack",
-          "ms-azuretools.vscode-bicep"
+          // // Azure 관련
+          // "ms-vscode.vscode-node-azure-pack",
+          // "ms-azuretools.vscode-bicep",
+          
+          // js 프론트엔드 관련
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "ms-vsliveshare.vsliveshare",
+          "blackgirlbytes.deploy-to-github-pages",
+          "tinkertrain.theme-panda",
+          "codespaces-contrib.codeswing",
+          "vsls-contrib.codetour",
+          "streetsidesoftware.code-spell-checker"
         ],
     
         "settings": {
